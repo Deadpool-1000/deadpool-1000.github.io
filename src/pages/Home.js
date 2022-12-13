@@ -41,8 +41,8 @@ function Home() {
           <div className={styles.detailsContainer}>
               <img src={profile} alt="profile"/>
               <div className={styles.detailsText}>
-                <p>Hi, I am Milind Bhatnagar,21, with an aim to become a successful software developer. I am already on my way to gain core knowledge in the field of Information Technology(IT) by pursuing Bachelor of Technology from Manipal University Jaipur which is going to be completed in June 2024. My areas of interest during professional journey will be Web Developing and Artificial Intelligence/Machine Learning(AI/ML). My academic record stands at 8.6 on the scale of 10.
-                  It is my quest for knowledge has led me to gain additional knowledge by the way of different certificate courses beyond my structured academic curriculum. My search for an appropriate opportunity is on and I am available for challenging opportunities in the grand field of IT which has become the need of the hour. </p>
+                <p>Hi, I am Milind Bhatnagar,21, an aspiring software developer. I am already on my way to gain core knowledge in the field of Information Technology(IT) by pursuing Bachelor of Technology from Manipal University Jaipur which is going to be completed in June 2024. My areas of interest during professional journey will be Web Developing and Artificial Intelligence/Machine Learning(AI/ML). My academic record stands at 8.6 on the scale of 10.
+                  It is my quest for knowledge that has led me to gain additional knowledge by the way of different certificate courses beyond my structured academic curriculum. My search for an appropriate opportunity is on and I am available for challenging opportunities in the grand field of IT which has become the need of the hour. </p>
               </div>
           </div>
           <a href={resume} download="milind_resume.pdf"><Button style={{background:"#bf94e4"}} variant="contained" endIcon={<FileDownloadIcon/>}>Download Resume</Button></a>
