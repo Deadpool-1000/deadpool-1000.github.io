@@ -14,9 +14,15 @@
 }
 
 .projectList {
-  /* width: 70vw; */
+  /* max-width:100%; */
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+}
+
+@media only screen and (max-width: 600px){
+  .projectList{
+  grid-template-columns: 1fr;
+  }
 }
